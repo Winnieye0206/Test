@@ -1,9 +1,18 @@
 <html>
+    <head> 
+        <script defer src="MPlan.js"></script>
+    </head>
     <body>
-        <h1> Diagnosis </h1>
-        <form>
-            <input type="text">
-        </form>
+        <h1> Management Plan </h1>
+        <label for="Diagnosis">Diagnosis:</label>
+        <input id="Diagnosis" type="text">
+        <br>
+        <br>
+        <label for="Splint type">Splint type:</label>
+        <input id="Splint type" type="text">
+        
+        <button onclick="createPlan()"> submit </button>
+        <p id="Plan"> </p>
     </body>
 
 </html>

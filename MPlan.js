@@ -44,6 +44,11 @@ function createPlan() {
     let plan = document.getElementById("Plan");
     let diagnosis = document.getElementById("Diagnosis").value
     let splintType = document.getElementById("Splint type").value
-plan.innerHTML = managementPlan(diagnosis, splintType, 'ultrasound', '22/10/22', 'swollen median nerve', 'one week', 'wrist')
+    let imaging = document.getElementById('Imaging').value
+    let imagingDate = document.getElementById("Imaging date").value
+    let imagingResults = document.getElementById('Imaging results').value
+    let treatmentTimeframe = document.getElementById('Treatment timeframe').value
+    let injuryLocation = document.getElementById('Location of injury').value
+plan.innerHTML = managementPlan(diagnosis, splintType, imaging, imagingDate, imagingResults, treatmentTimeframe, injuryLocation)
 }
 

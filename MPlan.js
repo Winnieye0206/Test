@@ -32,7 +32,7 @@ Diagnosis
 
 I will see you in ${timeframe} for a progress appointment to expand on todays examination findings and provide you with 2-3 exercises specific for you.
 
-Contact details
+<h2> Contact details </h2>
 
 Reception phone: 9458 5166 fax: 9458 5177 Email info@melbournehand.com.au
 

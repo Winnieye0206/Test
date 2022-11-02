@@ -21,14 +21,7 @@ function referralLetter(name, gender, injuryArea, handDominance, occupation, inj
 function createReferralLetter() {
     let letter = document.getElementById("letter")
     let name = document.getElementById('Name').value
-    let gender
-    if (document.getElementById('his').checked == true) {
-        gender = document.getElementById('his').value
-    } else if(document.getElementById('her').checked == true) {
-        gender = document.getElementById('her').value
-    } else {
-        gender = 'their'
-    }
+    let gender = document.querySelector('input[id="gender"]:checked').value || 'their'
     let injuryArea = document.getElementById('Injury area').value
     let handDominance = document.getElementById('Hand dominance').value
     let occupation = document.getElementById('Occupation').value

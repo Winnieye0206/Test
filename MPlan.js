@@ -13,7 +13,7 @@ Diagnosis
 
    <li> Address the root cause of the problem and not just the symptoms. </li>
 
-   <li> Getting you back to comfortable and confident use of your hands for school, daily function, and participation in meaningful life events. </li>
+   <li> Getting you back to comfortable and confident use of your hands for work, daily function, and participation in meaningful life events. </li>
 </ol>
 
 <h2> Progress Plan </h2>
